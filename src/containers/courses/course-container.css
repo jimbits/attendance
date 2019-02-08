@@ -1,0 +1,30 @@
+.courses-page {
+  padding: 1rem;
+}
+.add-course,
+.courses {
+  border: 1px solid rgb(216, 216, 216);
+  box-shadow: 0 0 8px 0 rgb(205, 205, 205);
+}
+
+.seperator {
+  margin: 5rem;
+}
+@media (min-width: 720px) {
+  .courses-page {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 5rem auto;
+    padding: 0;
+  }
+  .add-course,
+  .courses {
+    width: calc(50% - 1rem);
+    max-width: 490px;
+  }
+  .add-course,
+  .courses {
+    margin-bottom: 0;
+  }
+}
